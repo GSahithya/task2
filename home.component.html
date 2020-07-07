@@ -1,0 +1,23 @@
+<div class="container">
+    <form [formGroup]=home ngSubmit="doHome(home)" class = "myform">
+        <label for="firstname">first name</label>
+        <input 
+        type="text"
+        formControlName="firstname">
+         <label for="lastname">last name</label>
+         <input 
+         type="text"
+         formControlName="lastname>
+         <label for="address">adress</label>
+         <input type="text"
+         formControlName="address">
+         <label for="city">city</label>
+         <input type="text"
+         formControlName="city">
+         <label for="state">state</label>
+         <input type="text"
+         formControlName="state">
+         <button type= "submit">submit</button>
+         <button>cancel</button>
+</form>
+</div>
